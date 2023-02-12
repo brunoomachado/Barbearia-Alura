@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
+body {
+    background: #CCCCCC;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 105px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+#banner {
+    width: 100%;
+}
+
+.principal {
+    background: #CCCCCC;
+    margin: 0 auto;
+    width: 60vw;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+    font-size: 65px;
+    margin: 50px;
+}
+
+.texto-principal {
+    text-align: center;
+    display: inline-block;
+    width: 60vw;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#missao {
+    font-size: 35px;
+}
+
+em strong {
+    color: #FF0000;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding-top: 20px;
+    position: relative;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+}
+
+.beneficios-itens{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    position: absolute;
+    left: 10vw;
+    font-size: 1.5vw;
+    line-height: 18vh;
+    text-align: right;
+}
+
+.imagembeneficios {
+    width: 52vw;
+    position: absolute;
+    right: 10vw;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0;
+}
